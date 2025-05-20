@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 class AdminController extends Controller
 {
     /**
@@ -14,20 +15,30 @@ class AdminController extends Controller
         return view('admin.index');;
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
+     public function create()
     {
-        //
+        return view('admin.create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        // Validación
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email',
+            'edad' => 'required|integer|min:0|max:120',
+            'password' => 'required|string|min:6|confirmed',
+        ]);
+
+        // Crear usuario
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'edad' => $request->edad,
+            'password' => Hash::make($request->password),
+        ]);
+
+        return redirect()->route('admin.create')->with('success', 'Usuario registrado exitosamente');
     }
 
     /**

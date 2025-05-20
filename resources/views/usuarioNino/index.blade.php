@@ -49,57 +49,68 @@
         background-color: #26c6da;
     }
 </style>
+
 <div class="bebes-container">
-    <h2 class="section-title">Bienestar Integral para Mayores (60 - 74 años)</h2>
+    <h2 class="section-title">Bienestar Integral para Niños (6 - 12 años)</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Cuidado de la Salud</div>
+                <div class="card-header card-header-custom">Nutrición Inteligente</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Control de enfermedades crónicas, chequeos regulares y medicación adecuada.</p>
+                    <p class="card-text">Guías para una alimentación variada, recetas divertidas y tips para involucrarlos en la cocina.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Ver recetas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Movimiento y Diversión</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Juegos físicos, deportes grupales y rutinas que combinan diversión y salud.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Activarse</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Gestión de Emociones</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Recursos para que los niños aprendan a reconocer, expresar y regular sus emociones.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Ver recursos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Amistades y Valores</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Historias y dinámicas para fortalecer la empatía, el respeto y la cooperación.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Explorar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Aprender Jugando</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Herramientas interactivas para reforzar lo aprendido en la escuela de forma entretenida.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Jugar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Tecnología Responsable</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Consejos para un uso equilibrado de dispositivos y navegación segura en internet.</p>
                     <a href="#" class="btn btn-aqua mt-2">Aprender más</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Actividad Física Adaptada</div>
-                <div class="card-body text-center">
-                    <p class="card-text">Ejercicios suaves para mantener movilidad, equilibrio y fuerza.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver ejercicios</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Alimentación y Nutrición</div>
-                <div class="card-body text-center">
-                    <p class="card-text">Consejos para una dieta equilibrada y adaptada a necesidades específicas.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver guía</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Salud Mental y Socialización</div>
-                <div class="card-body text-center">
-                    <p class="card-text">Actividades para mantener mente activa y fomentar la interacción social.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Explorar actividades</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Seguridad y Prevención de Accidentes</div>
-                <div class="card-body text-center">
-                    <p class="card-text">Tips para adaptar el hogar y prevenir caídas u otros accidentes.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Conocer más</a>
                 </div>
             </div>
         </div>

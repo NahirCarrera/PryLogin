@@ -49,16 +49,27 @@
         background-color: #26c6da;
     }
 </style>
+
 <div class="bebes-container">
-    <h2 class="section-title">Bienestar Integral para Mayores (60 - 74 años)</h2>
+    <h2 class="section-title">Bienestar Integral para Jóvenes (18 - 25 años)</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Cuidado de la Salud</div>
+                <div class="card-header card-header-custom">Salud Física y Fitness</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Control de enfermedades crónicas, chequeos regulares y medicación adecuada.</p>
+                    <p class="card-text">Rutinas de ejercicio, nutrición para energía y consejos para un estilo de vida activo.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Comenzar ahora</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Salud Mental y Manejo del Estrés</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Técnicas para la gestión emocional, mindfulness y apoyo psicológico.</p>
                     <a href="#" class="btn btn-aqua mt-2">Aprender más</a>
                 </div>
             </div>
@@ -66,39 +77,39 @@
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Actividad Física Adaptada</div>
+                <div class="card-header card-header-custom">Carrera y Desarrollo Profesional</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Ejercicios suaves para mantener movilidad, equilibrio y fuerza.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver ejercicios</a>
+                    <p class="card-text">Herramientas para planificar tu carrera, habilidades laborales y networking.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Explorar</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Alimentación y Nutrición</div>
+                <div class="card-header card-header-custom">Relaciones Personales</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Consejos para una dieta equilibrada y adaptada a necesidades específicas.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver guía</a>
+                    <p class="card-text">Consejos para relaciones saludables, comunicación efectiva y resolución de conflictos.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Ver consejos</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Salud Mental y Socialización</div>
+                <div class="card-header card-header-custom">Autonomía Financiera</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Actividades para mantener mente activa y fomentar la interacción social.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Explorar actividades</a>
+                    <p class="card-text">Bases para administrar tus finanzas personales y planificar tu futuro económico.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Empezar</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Seguridad y Prevención de Accidentes</div>
+                <div class="card-header card-header-custom">Tecnología y Bienestar Digital</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Tips para adaptar el hogar y prevenir caídas u otros accidentes.</p>
+                    <p class="card-text">Equilibrar el uso de tecnología con hábitos saludables y desconexión digital.</p>
                     <a href="#" class="btn btn-aqua mt-2">Conocer más</a>
                 </div>
             </div>

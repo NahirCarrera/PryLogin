@@ -49,57 +49,68 @@
         background-color: #26c6da;
     }
 </style>
+
 <div class="bebes-container">
-    <h2 class="section-title">Bienestar Integral para Mayores (60 - 74 años)</h2>
+    <h2 class="section-title">Bienestar Integral para Bebés (0 - 5 años)</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Cuidado de la Salud</div>
+                <div class="card-header card-header-custom">Alimentación saludable</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Control de enfermedades crónicas, chequeos regulares y medicación adecuada.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Aprender más</a>
+                    <p class="card-text">Guías de lactancia, alimentación complementaria y horarios seguros para el bebé.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Ver más</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Actividad Física Adaptada</div>
+                <div class="card-header card-header-custom">Rutinas de sueño</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Ejercicios suaves para mantener movilidad, equilibrio y fuerza.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver ejercicios</a>
+                    <p class="card-text">Consejos para establecer horarios de siesta y descanso nocturno reparador.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Descubrir</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Alimentación y Nutrición</div>
+                <div class="card-header card-header-custom">Estimulación temprana</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Consejos para una dieta equilibrada y adaptada a necesidades específicas.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver guía</a>
+                    <p class="card-text">Actividades sensoriales, juegos de movimiento y canciones para el desarrollo cognitivo.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Explorar</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Salud Mental y Socialización</div>
+                <div class="card-header card-header-custom">Chequeos y vacunas</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Actividades para mantener mente activa y fomentar la interacción social.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Explorar actividades</a>
+                    <p class="card-text">Calendario de vacunación, alertas de crecimiento y control pediátrico.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Consultar</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Seguridad y Prevención de Accidentes</div>
+                <div class="card-header card-header-custom">Seguridad en casa</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Tips para adaptar el hogar y prevenir caídas u otros accidentes.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Conocer más</a>
+                    <p class="card-text">Prevención de accidentes, espacios seguros y primeros auxilios básicos para bebés.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Revisar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Apoyo emocional</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Cómo generar vínculos afectivos, reconocer emociones y acompañar el llanto.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Aprender</a>
                 </div>
             </div>
         </div>

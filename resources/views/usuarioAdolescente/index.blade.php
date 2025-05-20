@@ -49,57 +49,68 @@
         background-color: #26c6da;
     }
 </style>
+
 <div class="bebes-container">
-    <h2 class="section-title">Bienestar Integral para Mayores (60 - 74 años)</h2>
+    <h2 class="section-title">Bienestar Integral para Adolescentes (13 - 17 años)</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Cuidado de la Salud</div>
+                <div class="card-header card-header-custom">Salud Mental y Autocuidado</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Control de enfermedades crónicas, chequeos regulares y medicación adecuada.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Aprender más</a>
+                    <p class="card-text">Estrategias para manejar el estrés, ansiedad y mejorar la autoestima.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Explorar guía</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Actividad Física Adaptada</div>
+                <div class="card-header card-header-custom">Alimentación Consciente</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Ejercicios suaves para mantener movilidad, equilibrio y fuerza.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver ejercicios</a>
+                    <p class="card-text">Consejos para una dieta saludable, respetando cambios físicos y necesidades energéticas.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Ver consejos</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Alimentación y Nutrición</div>
+                <div class="card-header card-header-custom">Actividad Física Juvenil</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Consejos para una dieta equilibrada y adaptada a necesidades específicas.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Ver guía</a>
+                    <p class="card-text">Ejercicios y deportes para liberar energía, mantenerse activos y divertirse en grupo.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Comenzar</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Salud Mental y Socialización</div>
+                <div class="card-header card-header-custom">Relaciones Saludables</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Actividades para mantener mente activa y fomentar la interacción social.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Explorar actividades</a>
+                    <p class="card-text">Tips sobre comunicación asertiva, respeto y manejo de conflictos entre pares.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Ver más</a>
                 </div>
             </div>
         </div>
 
         <div class="col">
             <div class="card card-custom h-100">
-                <div class="card-header card-header-custom">Seguridad y Prevención de Accidentes</div>
+                <div class="card-header card-header-custom">Identidad y Propósito</div>
                 <div class="card-body text-center">
-                    <p class="card-text">Tips para adaptar el hogar y prevenir caídas u otros accidentes.</p>
-                    <a href="#" class="btn btn-aqua mt-2">Conocer más</a>
+                    <p class="card-text">Reflexiones y herramientas para el autoconocimiento, toma de decisiones y metas personales.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Inspirarse</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom h-100">
+                <div class="card-header card-header-custom">Tecnología y Redes Sociales</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Uso responsable de redes, privacidad digital y prevención de riesgos online.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Aprender</a>
                 </div>
             </div>
         </div>

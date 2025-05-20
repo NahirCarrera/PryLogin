@@ -1,27 +1,89 @@
 @extends('app')
 
 @section('content')
-<div class="container mt-4">
-    <h1 class="mb-4">Bienvenido a la aplicación</h1>
+<style>
+    body {
+        background: linear-gradient(to bottom, #e0f7fa, #f1f8e9);
+    }
 
-    <div class="card mb-3">
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/005/720/479/small_2x/banner-abstract-background-board-for-text-and-message-design-modern-free-vector.jpg" class="card-img-top" alt="Imagen de portada">
-        <div class="card-body">
-            <h4 class="card-title">Título </h4>
-            <p class="card-text">Texto de ejemplo.</p>
-        </div>
+    .main-banner {
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 128, 128, 0.2);
+        height: 250px;
+    }
+
+    .card-custom {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 128, 128, 0.15);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .card-custom:hover {
+        transform: translateY(-5px);
+    }
+
+    .card-header-custom {
+        background-color: #b2ebf2;
+        color: #00695c;
+        font-weight: bold;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .btn-aqua {
+        background-color: #4dd0e1;
+        color: white;
+        border: none;
+    }
+
+    .btn-aqua:hover {
+        background-color: #26c6da;
+    }
+</style>
+
+<div class="container mt-5">
+
+    <div class="main-banner mb-4">
+        <img src="https://st5.depositphotos.com/10614052/64973/i/450/depositphotos_649731664-stock-photo-banner-happy-african-american-family.jpg"
+             class="w-100" alt="Imagen de bienvenida">
     </div>
 
-    <div class="card">
-        <div class="card-header">Encabezado</div>
-        <div class="card-body">
-            <h4 class="card-title">Título </h4>
-            <p class="card-text">Texto</p>
-            <a href="{{ route('login') }}" class="btn btn-primary">Login</a>
-            <a href="{{ route('admin') }}" class="btn btn-secondary">Admin</a>
-            <a href="{{ route('cliente') }}" class="btn btn-secondary">Cliente</a>
+    <h2 class="text-center mb-5" style="color:#00796b;">Bienvenido a Guardián Familiar</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+            <div class="card card-custom">
+                <div class="card-header card-header-custom text-center">Cuidado diario</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Monitorea la salud y rutinas de cada miembro de la familia, desde bebés hasta longevos.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Ver más</a>
+                </div>
+            </div>
         </div>
-        <div class="card-footer text-muted">Pie de tarjeta</div>
+
+        <div class="col">
+            <div class="card card-custom">
+                <div class="card-header card-header-custom text-center">Actividades</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Ejercicios, juegos y retos diseñados según la edad para estimular cuerpo y mente.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Explorar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card card-custom">
+                <div class="card-header card-header-custom text-center">Conexión familiar</div>
+                <div class="card-body text-center">
+                    <p class="card-text">Envía mensajes, retos y recuerdos entre generaciones de forma segura y amigable.</p>
+                    <a href="#" class="btn btn-aqua mt-2">Conectar</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 @endsection
